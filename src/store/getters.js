@@ -1,7 +1,7 @@
 export const getTradeResult=(state)=>{
   return{
-    purchase:this.purchase,
-    sale:this.sale,
-    balance:this.balance
+    purchase:state.purchase,
+    sale:state.sale,
+    balance:state.balance
   }
 }

@@ -13,6 +13,10 @@
     components:{
         appHeader:header,
         appFooter:footer,
+    },
+    created() {
+      this.$store.dispatch("getTradeResult")
+      this.$store.dispatch("initApp")
     }
   }
 
